@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">PATH4U</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#jobs">Jobs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="application.html" class="btn">Apply Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1></h1>
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search jobs">
+        <button id="search-button"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/search--v1.png" alt="Search Icon"/></button>
+    </div>
+    <div id="jobs"></div>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Job</h1>
+            <p>Explore thousands of job opportunities and apply today.</p>
+            <a href="application.html" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>We are committed to helping job seekers find their ideal positions. Our platform connects you with top employers across various industries.</p>
+        </div>
+    </section>
+
+
+    <section id="jobs" class="jobs">
+        <div class="content">
+            <h2>Available Jobs</h2>
+            <div class="job-list" id="job-list">
+                <!-- Job items will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+   
+
+    <footer id="contact" class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Reach out to us at <a href="mailto:info@jobportal.com">info@jobportal.com</a>.</p>
+            <div class="socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
